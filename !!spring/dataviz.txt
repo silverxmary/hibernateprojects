@@ -1,0 +1,18 @@
+Infogr.am (el peorcito pero más simple)
+
+Easel.ly (infografía)
+
+
+Tableau (solo para Windoes, requiere de Excel)
+C
+
+Carto (ex cartoDB) para crear mapas, si quieren tutorial me escriben a mdb.judith@gmail.com
+Open Street Map también para mapas
+
+DataWrapper.de para gráficos
+
+Clase de infografías pòr si no tienen idea de qué usar y cuándo (muy básica).https://goo.gl/8UQ1TK
+
+Si tienen Twitter, el hashtag #DataViz tiene cosas interesantísimas.
+
+SI estudian diseño o comunicación súmense a la comunidad Hack Hackers y se les va a abrir la cabeza!

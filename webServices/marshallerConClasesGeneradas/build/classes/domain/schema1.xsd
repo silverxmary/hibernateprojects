@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<xs:schema version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:complexType name="direccion">
+    <xs:sequence>
+      <xs:element name="altura" type="xs:int" minOccurs="0"/>
+      <xs:element name="calle" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="usuario">
+    <xs:sequence>
+      <xs:element name="apellido" type="xs:string" minOccurs="0"/>
+      <xs:element name="direccion" type="direccion" minOccurs="0"/>
+      <xs:element name="id" type="xs:int" minOccurs="0"/>
+      <xs:element name="nombre" type="xs:string" minOccurs="0"/>
+      <xs:element name="telefonos" type="telefono" nillable="true" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="tipoUsuario" type="tipoUsuario" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="telefono">
+    <xs:sequence>
+      <xs:element name="numero" type="xs:string" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:simpleType name="tipoUsuario">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="PREMIUM"/>
+      <xs:enumeration value="REGULAR"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuario>
+    <apellido>apellido</apellido>
+    <direccion>
+        <altura>1000</altura>
+        <calle>Lavalle</calle>
+    </direccion>
+    <id>1</id>
+    <nombre>nombre</nombre>
+    <tipoUsuario>REGULAR</tipoUsuario>
+</usuario>

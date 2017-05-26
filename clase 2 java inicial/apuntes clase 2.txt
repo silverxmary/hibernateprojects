@@ -1,0 +1,19 @@
+java.sun.com
+
+paradigmas de programacion
+	--> secuencial
+	--> estructurado
+		--> condicionales
+			--> if else 
+			--> switch-case
+	--> POO
+
+A = "hoy es sabado"
+B = "esta despejado"
+
+Evaluacion Perezosa
+A & B
+A && B
+
+A | B
+A || B
