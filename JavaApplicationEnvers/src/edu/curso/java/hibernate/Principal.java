@@ -75,7 +75,7 @@ public class Principal {
 		Transaction transaction = session.beginTransaction();
 		long id = 1;
 		 Cliente cliente = null;
-/*               
+              
                 cliente = new Cliente();
                 cliente.setNombre("Carlos");
 		session.save(cliente);
@@ -87,7 +87,8 @@ public class Principal {
 		cliente = (Cliente) session.load(Cliente.class, id);		
 		cliente.setNombre("Carlos xyz");
 		session.update(cliente);
-		transaction.commit();*/
+		transaction.commit();
+                //
 		
 		
 		AuditReader reader = AuditReaderFactory.get(session);

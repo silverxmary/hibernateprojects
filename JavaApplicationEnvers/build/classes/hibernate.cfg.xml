@@ -13,7 +13,6 @@
 		<property name="hbm2ddl.auto">update</property>
 
 
-
 		<mapping class="edu.curso.java.hibernate.bo.Cliente" />
 		<mapping class="edu.curso.java.hibernate.bo.Direccion" />
 
